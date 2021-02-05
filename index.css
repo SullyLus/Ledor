@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{font-family: "Montserrat", sans-serif;
+}
+
+
+header div i{
+    
+    color: gold;
+}
+header div{
+    display: flex;
+    align-items:center;
+}
+
+h1{
+    font-family: "Long Cang", cursive; 
+    color: white;  
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+}
+header{
+    background-color: #333;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-height: 3.5rem;
+}
+  
+
+a{
+    text-decoration: none;
+    color:white;         
+}
+ul {
+    list-style:none;         
+    display: flex;  
+    margin: 1.5rem;
+}
+li{
+    display: inline; 
+    margin:0.8rem
+}
+
+
+
+
+
+
+.section1{
+    background-image: url(./Src/img/frame.jpg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.section1 div{
+    text-align: center;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section1 div p{
+    color: rgba(255, 255, 255, 0.644);
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+h2{
+    font-weight: bold;
+    font-size: 2.2rem;
+    padding-top: 3rem;
+
+}
+h2 span{
+    color: rgba(255, 255, 0, 0.596);
+}
+
+
+
+
+.section2{
+
+}
+.section2 div{
+    width: rem
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.container div img{
+    max-width: 100%;
+}
+.house{
+  width: 28%;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section2 h3{
+    font-weight: normal;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+    padding-left: 2rem;
+
+}
+.house p{
+    text-align:center ;
+    margin: 0.3rem;
+}
+
+hr{
+    max-width: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.2rem;
+    background-color: black;
+}
+
+
+
+
+
+
+.section3{
+    display: flex;
+    flex-flow: row;
+    padding-top: 4rem;
+    color: white;
+}
+.section3 div{
+    width: 50%;
+    background-color: #333;
+}
+h4 span{
+    color: rgba(255, 255, 0, 0.596);
+}
+h4{
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+.section3 p{
+    padding: 5rem;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+}
+
+.team{
+    background-image: url(./Src/img/team.jpg);
+    background-size: cover;
+}
+
+
+
+.section4{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 0.829);
+}
+.section4 h3{
+    font-weight: normal;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+    padding-left: 2rem;
+}
+.section4 div{
+    margin:1rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+.section4 div div{
+   flex:1;
+}
+.petit{
+    max-width: 10%;
+    /* flex-flow: column wrap; */
+}
+
+.petit img{
+    width: 100%;
+}
+.section4 div div img{
+    border-radius: 50%;
+}
+.section4 div div p{
+    padding-top: ;
+    padding-bottom: ;
+    text-align: left;
+}
+
+
+
+.section5{
+    background-color: #333;
+    height: 27rem;
+}
+.section5 div h3 span{
+    color: rgba(255, 255, 0, 0.596);
+}
+.section5 div h3{
+    color: white;
+    font-weight: normal;
+    font-weight: 500;
+    padding-top: 2rem;
+}
+.section5 div{
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+input{
+    padding:1rem;
+    margin: 1rem;
+}
+button{
+    background-color: rgb(255, 174, 0);
+    border-radius: 45%;
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    font-weight: bold;
+    padding-top: ;
+}
+footer{
+    background-color: #333;
+    height: 5rem;
+    text-align: center;
+    color: white;
+}
